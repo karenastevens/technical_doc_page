@@ -23,7 +23,7 @@ body {
 header {
     color: black;
     margin: 10px;
-    text-align: center;
+    text-align: left;
     font-size: 1.8em;
 }
 
@@ -71,6 +71,11 @@ section article {
 section li {
     margin: 15px 0px 0px 20px;
 }
+
+#reference li {
+    list-style-type: disc;
+}
+
 
 code {
     display: block;
